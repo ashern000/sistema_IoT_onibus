@@ -47,20 +47,72 @@ main{
 .presentation{
     width: 100%;
     height: 100vh;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-evenly;
 }
 
 .mobile-screen{
-    width: 47.5%;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: end;
-    padding: 10px;
+    justify-content: center;
 }
 
 .mobile-screen img{
+    width: 70%;
+}
+
+.download-app{
+    display: flex;
+    margin-top: -5%;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
     width: 40%;
-    height: 40%;
+}
+
+#busion{
+    text-align: center;
+    font-size: 3.5rem;
+    color: purple;
+}
+
+#busion-text{
+    font-size: 1rem;
+    word-spacing: 5px;
+    letter-spacing: 0.1px;
+    margin-bottom: 2%;
+}
+
+.stores{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.apple-store{
+    width: 35%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.play-store{
+    width: 35%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.apple-store-icon{
+    width: 35px;
+    height: 35px;
+    background-color: lightblue;
 }
 
 .faq{
