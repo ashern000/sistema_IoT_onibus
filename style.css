@@ -1,8 +1,13 @@
+:root{
+    --primart-color:#6400B2;
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 html{
@@ -10,7 +15,7 @@ html{
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: rgb(60, 0, 133);
+    background-color:var(--primart-color);
     border: 1px solid rgba(0, 0, 0, 0.585);
     border-radius: 5px;
 }
@@ -26,10 +31,7 @@ header{
     display: flex;
     justify-content:space-around;
     align-items: center;
-}
-
-img{
-    background-color: red;
+    color: var(--primart-color);
 }
 
 ul{
@@ -67,7 +69,7 @@ main{
     display: flex;
     margin-top: -5%;
     justify-content: center;
-    gap: 10px;
+    gap: 1px;
     flex-direction: column;
     width: 40%;
 }
@@ -75,14 +77,16 @@ main{
 #busion{
     text-align: center;
     font-size: 3.5rem;
-    color: purple;
+    color: var(--primart-color);
 }
 
 #busion-text{
     font-size: 1rem;
     word-spacing: 5px;
     letter-spacing: 0.1px;
+    color: var(--primart-color);
     margin-bottom: 2%;
+    text-align: center;
 }
 
 .stores{
@@ -94,7 +98,7 @@ main{
 }
 
 .apple-store{
-    width: 35%;
+    width: 36.5%;
     height: 80%;
     border-radius: 10px;
     background-color: black;
@@ -103,10 +107,12 @@ main{
 }
 
 .play-store{
-    width: 35%;
+    width: 38%;
     height: 80%;
     border-radius: 10px;
     background-color: black;
+    display: flex;
+    align-items: center;
 }
 
 .apple-store-icon{
@@ -115,15 +121,88 @@ main{
     background-color: lightblue;
 }
 
+.apple-store{
+    display: flex;
+    justify-content: space-around;
+}
+
+.download-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.download-text p{
+    margin-bottom: -10px;
+    font-size: 0.75rem;
+}
+
+.play-store{
+    display: flex;
+    justify-content: space-around;
+}
+
+#google{
+    font-size: 1.25rem;
+}
+
 .faq{
     width: 100%;
     height: 100vh;
+    display: flex;
+    color: var(--primart-color);
+}
 
+.questions{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions-div{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: start;
+    flex-direction: column;
+}
+
+.questions-div h1{
+    text-align: start;
+}
+
+.question{
+    width: 100%;
+    height: 11.25%;
+    border: 1px solid rgba(10,10,10,.01);
+    border-radius: 5px;
+    background-color: #F1E9F8;
+    display: flex;
+    align-items: center;
+    text-indent: 10px;
+}
+
+.mobile-screen-two{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-screen-two img{
+    width: 70%;
+    height: auto;
 }
 
 .points-of-project{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     background-color: purple;
 }
 
@@ -135,7 +214,15 @@ main{
 .team{
     width: 100%;
     height: 95vh;
-    background-color: darkviolet;
+    background-color: #33004A;
+}
+.team-div{
+    width: 80%;
+    height: 40vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{
