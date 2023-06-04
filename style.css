@@ -5,9 +5,19 @@
     font-family: 'Poppins', sans-serif;
 }
 
-::-webkit-scrollbar-track{
-    background-color: red;
-    width: 20px;
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(60, 0, 133);
+    border: 1px solid rgba(0, 0, 0, 0.585);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar{
+    background-color: #FFFFFF;
+    width: 10px;
 }
 
 header{
