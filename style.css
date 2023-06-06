@@ -504,6 +504,7 @@ main {
 .icons{
     display: flex;
     justify-content: space-evenly;
+    
     width: 70%;
     font-size: 1rem;
 }
@@ -569,4 +570,39 @@ hr {
   justify-content: space-evenly;
   width: 50%;
   right: 0.1%;
+}
+
+
+@media (max-width:592px){
+  .presentation{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .download-app{
+    width: 100%;  
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .apple-store, .play-store{
+    height: auto;
+    width: 40%;
+  }
+  
+  .team{
+    height: 100vh;
+    width: 100%;
+  }
+
+  .team-div{
+    flex-direction: column;
+  }
+
+  .members{
+    width: 45%;
+
+  }
 }
