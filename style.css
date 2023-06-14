@@ -270,20 +270,9 @@ main {
   justify-content: center;
 }
 
-@keyframes girarDois {
-    0%{
-        transform: rotateY(0deg);
-    }
-
-    100%{
-        transform: rotateY(360deg);
-    }
-}
-
 .mobile-screen-two img {
   width: 70%;
   height: auto;
-  animation: girarDois 2s 1  ;
 }
 
 .points-of-project {
